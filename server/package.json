@@ -17,7 +17,8 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.1",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "typescript": "^5.9.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -25,7 +26,6 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.10",
     "tsx": "^4.20.4",
-    "typescript": "^5.9.2",
     "@types/node": "^24.2.1"
   }
 }
