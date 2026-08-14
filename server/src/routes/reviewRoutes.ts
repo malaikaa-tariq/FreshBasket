@@ -1,0 +1,1 @@
+import {Router} from 'express';import {deleteReview,listReviews,upsertReview} from '../controllers/reviewController.js';import {protect} from '../middleware/auth.js';const router=Router();router.get('/product/:productId',listReviews);router.post('/product/:productId',protect,upsertReview);router.delete('/:id',protect,deleteReview);export default router;
